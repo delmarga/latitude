@@ -1,4 +1,4 @@
-/* 
+/*
  * General
  */
 
@@ -13,9 +13,9 @@ body {
 }
 
 h2 {
-  
+
   font-weight: 300;
-  
+
   letter-spacing: -1.2px;
 }
 
@@ -45,6 +45,15 @@ a {
   color: #3a3a3a;
   float: left;
   width: 340px;
+}
+
+.section-content p {
+  font-size: 12px;
+}
+
+.section-content p a {
+  color: #3372df;
+  padding-left: 5px;
 }
 
 .section-device {
@@ -85,9 +94,23 @@ a {
   text-transform: uppercase;
 }
 
+.btn-logout {
+  float: right;
+  background: #c3c3c3;
+  border: 1px solid #c3c3c3;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.23px;
+  padding: 1px 8px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 
 
-/* 
+/*
  * Header
  */
 
@@ -100,6 +123,16 @@ header {
   float: left;
   font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 17px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+}
+
+.logo {
+  float: left;
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #3a3a3a;
+  font-weight: bold;
   letter-spacing: 2.5px;
   text-transform: uppercase;
 }
@@ -132,7 +165,7 @@ header {
 
 
 /*
- * Hero section 
+ * Hero section
  */
 
 .hero-section .section-content {
@@ -151,7 +184,7 @@ header {
 
 /*
  * Sign up
- */ 
+ */
 
 .signup-section .section-content h2 {
   font-size: 30px;
@@ -205,7 +238,7 @@ header {
 
 /*
  * Sign up
- */ 
+ */
 
 .about-section h2 {
   font-size: 30px;
@@ -217,7 +250,7 @@ header {
 }
 
 
-/* 
+/*
  * Home
  */
 
@@ -233,7 +266,7 @@ header {
 
 .section-tabs .places a,
 .section-tabs .places a:visited {
-  color: #3372df; 
+  color: #3372df;
 }
 
 
